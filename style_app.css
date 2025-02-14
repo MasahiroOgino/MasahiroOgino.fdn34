@@ -2,10 +2,11 @@ body {
   text-align: center;  
   background-image:url("cool_digital.png");
   background-size: cover;
+  width: 99%;
 }
 
 h1 {
-  color: rgb(0, 234, 255);
+  color: rgb(0, 123, 255);
   font-size: 40px;
   text-align: center;
   line-height: 60px;
@@ -39,14 +40,23 @@ h3 {
   margin-bottom: 0px; 
 }
 
+h4{
+  color: white;
+  background-color: black;
+  margin-bottom: 0px;
+  margin-top: 0px; 
+}
+
 .second{
   display:flex;
   margin-top: 0px;
+  background-color: black;
 }
 
 .third{
-  width:50px;
-  margin-left: 50px;
+  margin: auto;
+  width:0px;
+  padding-left:200px ;
 }
 
 #list1{
@@ -65,7 +75,9 @@ h3 {
   width:200px;
   height:50px;
   margin-top: 20px;
-  margin-left: 820px;
+  margin-left: 570px;
+  border: none;
+  border-radius: 10px;
 }
 
 #btn3{
@@ -74,5 +86,66 @@ h3 {
   height:50px;
   width:100px;
   margin-top: 20px;
-  margin-left: 40px;
+  margin-left: 30px;
+  border: none;
+  border-radius: 10px;
+}
+
+#btn4{
+  font-size: 20px;
+  background-color: rgb(0, 174, 248);
+  height:50px;
+  width:100px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+
+#one{
+  width:100px;
+  margin-right:10px;
+}
+
+#two{
+  width:100px;
+  margin-right:10px;
+}
+
+#three{
+  width:100px;
+  margin-right:10px;
+}
+
+#four{
+  width:100px;
+  margin-right:10px;
+}
+
+#five{
+  width:100px;
+}
+
+#six{
+  width:100px;
+  margin-right:10px;
+}
+
+#seven{
+  width:100px;
+  margin-right:10px;
+}
+
+#eight{
+  width:100px;
+  margin-right:10px;
+}
+
+#nine{
+  width:100px;
+  margin-right:10px;
+}
+
+#ten{
+  width:100px;
 }
