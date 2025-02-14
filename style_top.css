@@ -1,5 +1,6 @@
 body {
-    text-align: right;  
+  text-align: right; 
+  background-color: rgb(211, 230, 247); 
 }
 
 h1 {
@@ -22,5 +23,7 @@ button {
     font-size: 30px; 
     text-align: center;
     background-color: rgb(0, 174, 248);
-    width: 200px; 
+    width: 200px;
+    border: none;
+    border-radius: 10px;
 }
