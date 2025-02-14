@@ -1,0 +1,16 @@
+body{
+    background-color:rgb(186, 255, 242) ;
+}
+
+#btn1{
+  font-size: 40px;
+  margin-left: 300px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(255, 81, 209);
+}
+
+#btn2{
+  position:absolute;
+  top: 300px;
+}
