@@ -11,11 +11,12 @@ h1{
 
 .div1{
   display:flex;
+  margin-top: 10px;
 }
 
 .div2{
   display:flex;
-  margin-top: 0px;
+  margin-top: 20px;
 }
 
 #think{
@@ -31,12 +32,12 @@ h2{
 
 #sp2{
   height:0px;   
-  background-color: rgba(255, 10, 235, 0.59);
+  background:linear-gradient(rgb(184, 251, 153) 50%, rgba(255, 120, 244, 0.59) 50%);
 }
 
 #sp3{
   height:0px;
-  background-color: rgb(157, 68, 68);
+  background:linear-gradient(rgb(184, 251, 153) 50%, rgba(255, 120, 235, 0.59) 50%);
 }
 
 #list{
@@ -89,6 +90,7 @@ h4{
   border: none;
   border-radius: 10px;
   background-color: rgb(84, 179, 252);
+  height:50px;
 }
 
 #btn2{
@@ -99,4 +101,6 @@ h4{
   right: 10px;
   bottom:10px;
   background-color: rgb(84, 179, 252);
+  height:50px;
+  width:100px;
 }
