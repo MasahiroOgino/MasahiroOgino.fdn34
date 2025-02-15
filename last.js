@@ -5,6 +5,7 @@ const back = document.getElementById("back");
 const ctr = document.getElementById("ctr");
 const arrow = document.getElementById("arrow");
 const clear = document.getElementById("clear");
+const prog = document.getElementById("prog");
 
 function displayComment() {
     if (ctr.style.display === "" || ctr.style.display === "none") {
@@ -27,6 +28,15 @@ function displayClear() {
     }
 }
 
+function colorChange() {
+    if (prog.style.color !== "red") {
+        prog.style.color = "red";
+    } else {
+        prog.style.color = "black"; 
+    }
+}
+
 lastButton.addEventListener("click", displayComment);
 back.addEventListener("click", displayComment);
 arrow.addEventListener("click", displayClear);
+prog.addEventListener("click", colorChange);
