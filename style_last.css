@@ -3,6 +3,14 @@ body{
   zoom:115%;
 }
 
+#basic{
+  background:linear-gradient(rgb(186, 255, 242) 50%, rgb(253, 232, 115) 50%);
+}
+
+#initial{
+  background:linear-gradient(rgb(186, 255, 242) 50%, rgb(253, 232, 115) 50%);
+}
+
 #btn1{
   font-size: 40px;
   border: none;
@@ -39,7 +47,7 @@ body{
   background: rgb(0, 13, 255);
   color:rgb(255, 255, 255);
   position:fixed;
-  width:75%;
+  width:80%;
   border-radius: 10px;
   top:32%;
   left:10%;
